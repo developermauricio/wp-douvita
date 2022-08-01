@@ -1,0 +1,1 @@
+/home/forge//prestashop/config/settings.inc.php

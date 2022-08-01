@@ -1,0 +1,1 @@
+/var/snap/lxd/common/lxd//portal/sites/default/settings.php

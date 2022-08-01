@@ -1,0 +1,1 @@
+/var/lib/redis//opencart/config.php

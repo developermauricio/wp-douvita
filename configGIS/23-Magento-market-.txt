@@ -1,0 +1,1 @@
+/home/syslog//market/app/etc/local.xml

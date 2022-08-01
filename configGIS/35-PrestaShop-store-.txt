@@ -1,0 +1,1 @@
+/var/lib/sendmail//store/config/settings.inc.php

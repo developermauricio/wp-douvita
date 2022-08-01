@@ -1,0 +1,1 @@
+/var/snap/lxd/common/lxd//blogs/configuration.php

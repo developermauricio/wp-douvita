@@ -1,0 +1,1 @@
+/home/syslog//client/configuration.php

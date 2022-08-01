@@ -1,0 +1,1 @@
+/var/run/ircd//support/configuration.php

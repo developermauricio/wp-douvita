@@ -1,0 +1,1 @@
+/var/lib/sendmail//market/app/etc/local.xml

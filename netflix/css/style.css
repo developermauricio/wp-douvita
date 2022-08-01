@@ -1,0 +1,318 @@
+body, html {
+	background-image: url('../img/splash_large.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+	overflow: hidden;
+	position: absolute;
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.body-wrapper {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.4);
+	background-size: cover;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.netflix-logo {
+	margin-left: 3%;
+	text-decoration: none;
+	vertical-align: middle;
+	fill: #e50914;
+	display: inline-block;
+	line-height: 90px;
+	height: 45px;
+	width: 167px;
+	margin-top: 15px;
+}
+
+.login-box {
+	padding: 40px 68px 60px 68px;
+	background-color: rgba(0,0,0,.8);
+	max-width: 450px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.login-box .sign-in-text {
+	font-weight: bolder;
+	color: #ffffff;
+	font-size: 32px;
+	margin-bottom: 25px;
+	display: block;
+}
+
+.login-box .form-group {
+	margin-bottom: 25px;
+	position: relative;
+}
+
+.login-box .input-field {
+	height: 50px;
+	color: #ffffff;
+	background: #333;
+	padding: 16px 20px 0;
+	border: none;
+}
+
+.login-box .input-field.error {
+	border-bottom: 2px solid #e87c03;
+}
+
+.login-box .form-group label {
+	color: #8c8c8c;
+	font-size: 16px;
+	margin-left: 20px;
+	margin-top: -35px;
+	display: block;
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+}
+
+.login-box .form-group label.label-smaller {
+	font-size: 12px;
+	margin-top: -45px;
+	margin-bottom: 20px;
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+}
+
+.login-box .form-group .error-msg {
+	margin-top: 10px;
+	color: #e87c03;
+	padding: 3px;
+	margin-bottom: -15px;
+}
+
+.login-box .form-group .show_hide {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0 16px;
+	height: 50px;
+	background: none;
+	border: none;
+	color: #8c8c8c;
+	z-index: 100;
+	display: block;
+}
+
+.login-box .form-group .show_hide:hover {
+	cursor: pointer;
+}
+
+.login-box .submit-btn {
+	height: 50px;
+	font-size: 16px;
+	font-weight: 700;
+	margin: 24px 0 12px;
+	background: #e50914;
+	border: none;
+	color: #ffffff;
+	margin-top: 50px;
+}
+
+.login-box .form-group.submit_group {
+	margin-bottom: 0px;
+}
+
+.login-box .remember_me:hover {
+	cursor: pointer;
+}
+
+.login-box .remember_me input {
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+}
+
+.login-box .remember_me span {
+	color: #b3b3b3;
+	margin-top: 3px;
+	margin-left: 3px;
+	display: block;
+	float: left;
+}
+
+.login-box .need_help a {
+	float: right;
+	text-decoration: none;
+	color: #b3b3b3;
+}
+
+.login-box .need_help a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.login-box .login_facebook {
+	margin-top: 200px;
+}
+
+.login-box .login_facebook:hover {
+	cursor: pointer;
+}
+
+.login-box .login_facebook img {
+	height: 20px;
+	width: 20px;
+	display: block;
+	float: left;
+}
+
+.login-box .login_facebook span {
+	margin-left: 10px;
+	float: left;
+	display: block;
+	color: #737373
+}
+
+.login-box .new_member {
+	margin-top: 16px;
+}
+
+.login-box .new_member span {
+	color: #737373;
+	font-size: 16px;
+	font-weight: 500;
+	display: block;
+	float: left;
+	margin-right: 5px;
+}
+
+.login-box .new_member a {
+	font-size: 16px;
+	font-weight: 500;
+	color: #ffffff;
+	display: block;
+	float: left;
+}
+
+
+.footer {
+margin-top: 100px;
+padding: 30px 68px 80px 68px;
+background-color: rgba(0,0,0,.8);
+}
+
+.footer .container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.footer .container .questions span {
+	font-size: 16px;
+	color: #999;
+}
+
+.footer .container .questions a {
+	color: #999;
+	text-decoration: none;
+}
+
+.footer .container .questions a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.footer .container .footer_links {
+	margin-top: 30px;
+}
+
+.footer .container .footer_links span {
+	color: #999;
+}
+
+.footer .container .footer_links span:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.footer .container .language_change {
+	margin-top: 35px;
+	position: relative;
+}
+
+.footer .container .language_change select {
+	border: 1px solid #333;
+	border-radius: 2px;
+	color: #999;
+	background: #000000;
+	padding-right: 85px;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 1.7;
+	text-indent: 0;
+	text-align: start;
+	-webkit-appearance: none;
+}
+
+.footer .container .language_change .dropdown_arrow {
+	position: absolute;
+	display: block;
+	z-index: 100;
+	left: 172px;
+	top: 12px;
+	width: 17px;
+	height: 17px;
+}
+
+.footer .container .language_change .globe {
+	position: absolute;
+	left: 30px;
+	top: 14px;
+	width: 17px;
+	height: 17px;
+	z-index: 100;
+}
+
+@media screen and (max-width: 739px) {
+	body, html {
+		background: #000000;
+	}
+	.login-box {
+		max-width: 100%;
+		padding-left: 35px;
+		padding-right: 35px;
+		padding-top: 5px;
+		padding-bottom: 25px;
+	}
+	.footer {
+		padding: 10px;
+		margin-top: 30px;
+	}
+	.login-box .login_facebook {
+		margin-top: 150px;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.netflix-logo {
+		height: 20px;
+		width: 75px;
+		vertical-align: top;
+		margin-top: -10px;
+	}
+	.login-box {
+		max-width: 100%;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.login-box .new_member {
+		margin-top: 25px;
+	}
+}

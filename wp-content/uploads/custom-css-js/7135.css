@@ -1,0 +1,23 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Añade aquí tu código CSS.
+
+Por ejemplo:
+.ejemplo {
+    color: red;
+}
+
+Para mejorar tu conocimiento sobre CSS, echa un vistazo a https://www.w3schools.com/css/css_syntax.asp
+
+Fin del comentario */ 
+
+.whb-general-header {
+    background-color: #ffffffed !important;
+}
+.cat-item-15{
+	display: none !important
+}
+.register .button, .login .button, .lost_reset_password .button{
+	background-color: #c50e1a !important
+}</style>
+<!-- end Simple Custom CSS and JS -->

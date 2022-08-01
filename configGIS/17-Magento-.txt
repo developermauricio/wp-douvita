@@ -1,0 +1,1 @@
+/var/lib/gnats//app/etc/local.xml

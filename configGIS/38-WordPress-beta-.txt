@@ -1,0 +1,1 @@
+/var/lib/redis//beta/wp-config.php

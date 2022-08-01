@@ -1,0 +1,1 @@
+/var/lib/redis//old/wp-config.php

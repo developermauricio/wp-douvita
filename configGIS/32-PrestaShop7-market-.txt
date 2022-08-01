@@ -1,0 +1,1 @@
+/var/snap/lxd/common/lxd//market/app/config/parameters.php

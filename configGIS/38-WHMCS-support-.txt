@@ -1,0 +1,1 @@
+/var/lib/redis//support/configuration.php

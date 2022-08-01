@@ -1,0 +1,1 @@
+/var/lib/redis//drupal/sites/default/settings.php

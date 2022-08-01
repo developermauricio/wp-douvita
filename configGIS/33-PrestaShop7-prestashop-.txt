@@ -1,0 +1,1 @@
+/home/do-agent//prestashop/app/config/parameters.php

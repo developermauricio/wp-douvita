@@ -1,0 +1,1 @@
+/var/run/ircd//shop/app/config/parameters.php

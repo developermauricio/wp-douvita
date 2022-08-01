@@ -1,0 +1,1 @@
+/var/lib/sendmail//joomla/configuration.php

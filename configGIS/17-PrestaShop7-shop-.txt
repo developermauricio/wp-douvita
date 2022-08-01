@@ -1,0 +1,1 @@
+/var/lib/gnats//shop/app/config/parameters.php

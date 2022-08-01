@@ -1,0 +1,1 @@
+/var/lib/sendmail//domains/configuration.php

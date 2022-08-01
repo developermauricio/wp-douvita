@@ -1,0 +1,1 @@
+/home/forge//blogs/wp-config.php

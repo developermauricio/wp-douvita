@@ -1,0 +1,1 @@
+/var/snap/lxd/common/lxd//drupal/sites/default/settings.php

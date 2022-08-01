@@ -1,0 +1,357 @@
+body, html {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background: #f3f3f3;
+}
+
+.page_header {
+	height: 90px;
+	background-color: #fafafa;
+	border-bottom: solid 1px #dcdde0;
+	width: 100%;
+}
+
+.netflix-logo {
+	margin-left: 3%;
+	text-decoration: none;
+	vertical-align: middle;
+	fill: #e50914;
+	display: inline-block;
+	line-height: 90px;
+	height: 45px;
+	width: 167px;
+	margin-top: 16px;
+	float: left;
+}
+
+.sign_out a {
+	float: right;
+	color: #E50914;
+	font-weight: 700;
+	font-size: 1.4em;
+	line-height: 90px;
+	margin-right: 3%;
+}
+
+.page_container {
+	margin-top: 20px;
+	max-width: 850px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page_container .page_caption {
+	font-size: 34px;
+}
+
+.page_container .spacing_caption {
+	margin-top: 20px;
+}
+
+.page_container .above_form {
+	padding-right: 40px;
+	background-image: url(../img/lock.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 40px 40px;
+	text-align: right;
+	line-height: 1;
+	margin-right: -7px;
+}
+
+.page_container .above_form span {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.page_container .above_form a {
+	font-size: 12px;
+	cursor: pointer;
+	text-decoration: none;
+	color: #0080FF;
+}
+
+.page_container .form_caption {
+	margin-top: 5px;
+	cursor: pointer;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 40px;
+	padding: 10px;
+	padding-bottom: 12px;
+	display: block;
+	border: 1px solid #dcdde0;
+	background-color: #fff;
+}
+
+.page_container .form_caption .arrow_down {
+	width: 27px;
+	height: 25px;
+	display: block;
+	position: relative;
+	float: left;
+	padding: 5px;
+	margin-left: -5px;
+}
+
+.page_container .form_caption span {
+	height: 25px;
+	width: 39px;
+	margin-right: 6px;
+	float: left;
+	display: block;
+	margin-top: 3px;
+}
+
+.page_container .form_caption .form_caption_text {
+	width: auto;
+	margin-top: -5px;
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+}
+
+.page_container .form_caption span.visa {
+	background-image: url('../img/visa_37x25.png');
+	background-repeat: no-repeat;
+}
+
+.page_container .form_caption span.mastercard {
+	background-image: url('../img/master_37x25.png');
+	background-repeat: no-repeat;
+}
+
+.page_container .form_caption span.amex {
+	background-image: url('../img/amex_37x25.png');
+	background-repeat: no-repeat;
+}
+
+.page_container .form_block {
+	padding: 20px 40px 40px 40px;
+	display: block;
+	border: 1px solid #dcdde0;
+	border-top: none;
+	background-color: #fff;
+	position: relative;
+}
+
+.page_container .form-group {
+	position: relative;
+}
+
+.page_container .form-input {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 16px;
+	border: 1px solid #b3b3b3;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	display: block;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 100%;
+	max-width: 500px;
+	color: #000;
+	line-height: 18px;
+	padding: 10px 11px;
+	height: 44px;
+}
+
+.page_container .form-input.error {
+	border: 1px solid red;
+}
+
+.page_container .form-select {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 16px;
+	border: 1px solid #b3b3b3;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	display: block;
+	width: 100%;
+	max-width: 500px;
+	color: #000;
+	line-height: 18px;
+	padding: 10px 11px;
+	height: 44px;
+}
+
+.page_container .form-select.error {
+	border: 1px solid red;
+}
+
+.page_container .dash-middle {
+	padding: 0px;
+}
+
+.page_container .dash-middle hr {
+	border-bottom: 1px solid #999;
+	width: 76%;
+	text-align: center;
+}
+
+.page_container .exp-box .col-sm-5 {
+	width: 45.8%;
+}
+
+.page_container .form-input#cardNumber {
+	padding-right: 35px;
+}
+
+.page_container .form-input_lock {
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	right: 25px;
+	top: 35px;
+}
+
+.page_container .form-input_lock_cvv {
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	right: 25px;
+	top: 10px;
+}
+
+.page_container .cvv-hover {
+	float: right;
+	display: block;
+	margin-top: -35px;
+	margin-right: -35px;
+	color: #084482;
+}
+
+.page_container .cvv-hover:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.page_container .submit_btn {
+	margin-top: 60px;
+	font-size: 20px;
+	padding: 12px 2em;
+	min-width: 112px;
+	min-height: 44px;
+	border: none;
+	color: #fff;
+	background-color: #0080ff;
+}
+
+.page_container .thank_you {
+	font-size: 16px;
+}
+
+.page_container .done_img {
+	margin-top: 20px;
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page_container .secure_bottom {
+	display: block;
+	float: left;
+	padding: 3px;
+}
+
+.page_container .secure_bottom span {
+	display: block;
+	float: left;
+	margin-right: 5px;
+	margin-top: 2px;
+}
+
+.page_container .secure_bottom img {
+	height: 20px;
+	width: 20px;
+	display: block;
+	float: left;
+}
+
+.footer {
+	margin-top: 130px;
+	width: 100%;
+	min-height: 80px;
+	border-top: 1px solid #dcdde0;
+}
+
+.footer .footer_container {
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px;
+}
+
+.footer .footer_container .footer_questions span, .footer .footer_container a {
+	color: #999999;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.footer .footer_container a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.footer .footer_container .footer_lnks {
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+	.footer .footer_container {
+		padding: 20px 0px 0px 0px;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.page_container {
+		max-width: 85%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.page_container .exp-box .col-sm-5 {
+		width: 50%;
+	}
+	.security_code {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.page_container {
+		width: 100% !important;
+		margin-right: 0;
+		max-width: 100%;
+	}
+
+	.page_container .form_caption, .page_container .form_block {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.page_container .above_form {
+		margin-right: 10px;
+	}
+
+	.page_container .page_caption {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.submit_btn {
+		width: 100%;
+		font-size: 1em !important;
+	}
+}
